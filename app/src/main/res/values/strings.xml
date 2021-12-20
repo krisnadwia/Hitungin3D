@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Hitungin 3D</string>
+    <string name="kubus">Kubus</string>
+    <string name="balok">Balok</string>
+    <string name="tabung">Tabung</string>
+    <string name="kerucut">Kerucut</string>
+    <string name="bola">Bola</string>
+    <string name="hitung_volume">Hitung Volume</string>
+    <string name="hitung_luas">Hitung Luas Permukaan</string>
+    <string name="rumus">Rumus</string>
+    <string name="hitung">Hitung</string>
+    <string name="hapus">Hapus</string>
+    <string name="hasil">Hasil</string>
+    <string name="deskripsi_aplikasi">Hitungin 3D adalah sebuah aplikasi penghitung volume dan luas: Kubus, Balok, Tabung, Kerucut, dan Bola.</string>
+    <string name="email_pembuat">krisnadwiandrianto04@gmail.com</string>
+    <string name="panjang_singkatan">p</string>
+    <string name="masukkan_panjang_balok">Masukkan panjang balok</string>
+    <string name="lebar_singkatan">l</string>
+    <string name="masukkan_lebar_balok">Masukkan lebar balok</string>
+    <string name="tinggi_singkatan">t</string>
+    <string name="masukkan_tinggi_balok">Masukkan tinggi balok</string>
+    <string name="masukkan_tinggi_kerucut">Masukkan tinggi kerucut</string>
+    <string name="jari_jari_singkatan">r</string>
+    <string name="masukkan_jari_jari_bola">Masukkan jari-jari bola</string>
+    <string name="masukkan_jari_jari_kerucut">Masukkan jari-jari kerucut</string>
+    <string name="garis_pelukis_singkatan">s</string>
+    <string name="masukkan_panjang_garis_pelukis_kerucut">Masukkan panjang garis pelukis kerucut</string>
+    <string name="sisi_singkatan">s</string>
+    <string name="masukkan_panjang_sisi_kubus">Masukkan panjang sisi kubus</string>
+    <string name="masukkan_jari_jari_tabung">Masukkan jari-jari tabung</string>
+    <string name="masukkan_tinggi_tabung">Masukkan tinggi tabung</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+</resources>

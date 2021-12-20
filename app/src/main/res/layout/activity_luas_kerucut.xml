@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light"
+    tools:context=".LuasKerucutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/green_light"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextModifier"
+                android:layout_marginTop="12dp"
+                android:text="@string/hitung_luas"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textStyle="bold" />
+
+            <View
+                style="@style/HorizontalLine"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                style="@style/TextModifier"
+                android:layout_marginTop="12dp"
+                android:text="@string/rumus"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_rumus_luas_kerucut"
+                style="@style/ImageThumbnail"
+                android:src="@drawable/rumus_luas_kerucut"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/rumus_luas_kerucut" />
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView style="@style/DetailCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_light">
+
+                <TableLayout style="@style/TableLayout">
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextModifier"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/jari_jari_singkatan"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/masukkan_jari_jari_kerucut">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edit_text_luas_kerucut_jari"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberDecimal" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextModifier"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/garis_pelukis_singkatan"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/masukkan_panjang_garis_pelukis_kerucut">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edit_text_luas_kerucut_pelukis"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberDecimal" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </TableRow>
+
+                </TableLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_hitung_luas_kerucut_hasil"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hitung" />
+
+            <Button
+                android:id="@+id/btn_hapus_luas_kerucut_hasil"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hapus" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hasil_luas_kerucut"
+            style="@style/TextModifier"
+            android:layout_marginTop="24dp"
+            android:text="@string/hasil"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView style="@style/DetailCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_light">
+
+                <TableLayout style="@style/TableLayout">
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextModifier"
+                            android:text="@string/kubus"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <ImageView
+                            android:id="@+id/img_kubus"
+                            style="@style/ImageThumbnail"
+                            android:src="@drawable/kubus"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/kubus" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginRight="48dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_hitung_volume_kubus"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_volume" />
+
+                            <Button
+                                android:id="@+id/btn_hitung_luas_kubus"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_luas" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView style="@style/DetailCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_light">
+
+                <TableLayout style="@style/TableLayout">
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextModifier"
+                            android:text="@string/balok"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <ImageView
+                            android:id="@+id/img_balok"
+                            style="@style/ImageThumbnail"
+                            android:src="@drawable/balok"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/balok" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginRight="48dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_hitung_volume_balok"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_volume" />
+
+                            <Button
+                                android:id="@+id/btn_hitung_luas_balok"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_luas" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView style="@style/DetailCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_light">
+
+                <TableLayout style="@style/TableLayout">
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextModifier"
+                            android:text="@string/tabung"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <ImageView
+                            android:id="@+id/img_tabung"
+                            style="@style/ImageThumbnail"
+                            android:src="@drawable/tabung"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/tabung" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginRight="48dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_hitung_volume_tabung"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_volume" />
+
+                            <Button
+                                android:id="@+id/btn_hitung_luas_tabung"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_luas" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView style="@style/DetailCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_light">
+
+                <TableLayout style="@style/TableLayout">
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextModifier"
+                            android:text="@string/kerucut"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <ImageView
+                            android:id="@+id/img_kerucut"
+                            style="@style/ImageThumbnail"
+                            android:src="@drawable/kerucut"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/kerucut" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginRight="48dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_hitung_volume_kerucut"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_volume" />
+
+                            <Button
+                                android:id="@+id/btn_hitung_luas_kerucut"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_luas" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView style="@style/DetailCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_light">
+
+                <TableLayout style="@style/TableLayout">
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextModifier"
+                            android:text="@string/bola"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <ImageView
+                            android:id="@+id/img_bola"
+                            style="@style/ImageThumbnail"
+                            android:src="@drawable/bola"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/bola" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <View
+                            style="@style/HorizontalLine"
+                            android:background="?android:attr/listDivider" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginRight="48dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_hitung_volume_bola"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_volume" />
+
+                            <Button
+                                android:id="@+id/btn_hitung_luas_bola"
+                                style="@style/Widget.AppCompat.Button.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/hitung_luas" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>
