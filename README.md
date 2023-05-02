@@ -1,7 +1,7 @@
 # Hitungin3D
 Aplikasi penghitung volume dan luas bangun ruang
 
-Download this app: https://cloud.degoo.com/share/cr44nNUiJ0_UpQiXxfa5Gg
+Download this app: https://drive.google.com/drive/folders/13giHXo2SrphabA16ng9vSZQrYtJlZD6t?usp=share_link
 
 ## Screenshots
 <img src="assets/SplashScreen.png"
